@@ -908,17 +908,14 @@
                     <div id="u4425_div" class=""></div>
                     <select id="u4425_input" class="u4425_input">
                       <option class="u4425_input_option" value="Selecciona una opción...">Selecciona una opción...</option>
-                      <option class="u4425_input_option" value="Expedir con validación ID">Expedir con validación ID</option>
-                      <option class="u4425_input_option" value="Expedir con folio REEMO">Expedir con folio REEMO</option>
-                      <option class="u4425_input_option" value="Expedir sin validación ID">Expedir sin validación ID</option>
-                      <option class="u4425_input_option" value="Expedir con validación ID - Móvil">Expedir con validación ID - Móvil</option>
-                      <option class="u4425_input_option" value="Expedir con folio REEMO - Móvil">Expedir con folio REEMO - Móvil</option>
-                      <option class="u4425_input_option" value="Expedir sin validación ID - Móvil">Expedir sin validación ID - Móvil</option>
+                      <option class="u4425_input_option" value="Por error en la captura">Por error en la captura</option>
+                      <option class="u4425_input_option" value="Por solicitud del usuario">Por solicitud del usuario</option>
+                      <option class="u4425_input_option" value="Por error detectado en REEMO">Por error detectado en REEMO</option>
                     </select>
                   </div>
                 </div>
               </div>
-              <div id="u4423_state1" class="panel_state" data-label="State1" style="visibility: hidden;">
+              <div id="u4423_state1" class="panel_state" data-label="RESP" style="visibility: hidden;">
                 <div id="u4423_state1_content" class="panel_state_content">
 
                   <!-- Unnamed (Rectangle) -->
@@ -929,34 +926,60 @@
                     </div>
                   </div>
 
-                  <!-- txtMotivo cancelacion1 (Text Field) -->
-                  <div id="u4427" class="ax_default text_field" data-label="txtMotivo cancelacion1">
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u4427" class="ax_default droplist">
                     <div id="u4427_div" class=""></div>
-                    <input id="u4427_input" type="text" value="" class="u4427_input"/>
+                    <select id="u4427_input" class="u4427_input">
+                      <option class="u4427_input_option" value="Selecciona una opción...">Selecciona una opción...</option>
+                      <option class="u4427_input_option" value="Expedir con validación ID">Expedir con validación ID</option>
+                      <option class="u4427_input_option" value="Expedir con folio REEMO">Expedir con folio REEMO</option>
+                      <option class="u4427_input_option" value="Expedir sin validación ID">Expedir sin validación ID</option>
+                      <option class="u4427_input_option" value="Expedir con validación ID - Móvil">Expedir con validación ID - Móvil</option>
+                      <option class="u4427_input_option" value="Expedir con folio REEMO - Móvil">Expedir con folio REEMO - Móvil</option>
+                      <option class="u4427_input_option" value="Expedir sin validación ID - Móvil">Expedir sin validación ID - Móvil</option>
+                    </select>
                   </div>
                 </div>
               </div>
-              <div id="u4423_state2" class="panel_state" data-label="obligatorio" style="visibility: hidden;">
+              <div id="u4423_state2" class="panel_state" data-label="State1" style="visibility: hidden;">
                 <div id="u4423_state2_content" class="panel_state_content">
 
                   <!-- Unnamed (Rectangle) -->
                   <div id="u4428" class="ax_default label">
                     <div id="u4428_div" class=""></div>
                     <div id="u4428_text" class="text ">
-                      <p><span style="color:#545454;">Motivo de cancelación</span><span style="color:#D0021B;">*</span><span style="color:#545454;">:</span></p>
+                      <p><span>Motivo de cancelación*:</span></p>
                     </div>
                   </div>
 
-                  <!-- txtMotivo cancelacion2 (Text Field) -->
-                  <div id="u4429" class="ax_default text_field" data-label="txtMotivo cancelacion2">
+                  <!-- txtMotivo cancelacion1 (Text Field) -->
+                  <div id="u4429" class="ax_default text_field" data-label="txtMotivo cancelacion1">
                     <div id="u4429_div" class=""></div>
                     <input id="u4429_input" type="text" value="" class="u4429_input"/>
                   </div>
+                </div>
+              </div>
+              <div id="u4423_state3" class="panel_state" data-label="obligatorio" style="visibility: hidden;">
+                <div id="u4423_state3_content" class="panel_state_content">
 
                   <!-- Unnamed (Rectangle) -->
                   <div id="u4430" class="ax_default label">
                     <div id="u4430_div" class=""></div>
                     <div id="u4430_text" class="text ">
+                      <p><span style="color:#545454;">Motivo de cancelación</span><span style="color:#D0021B;">*</span><span style="color:#545454;">:</span></p>
+                    </div>
+                  </div>
+
+                  <!-- txtMotivo cancelacion2 (Text Field) -->
+                  <div id="u4431" class="ax_default text_field" data-label="txtMotivo cancelacion2">
+                    <div id="u4431_div" class=""></div>
+                    <input id="u4431_input" type="text" value="" class="u4431_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u4432" class="ax_default label">
+                    <div id="u4432_div" class=""></div>
+                    <div id="u4432_text" class="text ">
                       <p><span>Este campo es obligatorio</span></p>
                     </div>
                   </div>
@@ -965,82 +988,82 @@
             </div>
 
             <!-- btnSalir cancelar (Rectangle) -->
-            <div id="u4431" class="ax_default button" data-label="btnSalir cancelar">
-              <div id="u4431_div" class=""></div>
-              <div id="u4431_text" class="text ">
+            <div id="u4433" class="ax_default button" data-label="btnSalir cancelar">
+              <div id="u4433_div" class=""></div>
+              <div id="u4433_text" class="text ">
                 <p><span>Salir</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4432" class="ax_default button">
-              <div id="u4432_div" class=""></div>
-              <div id="u4432_text" class="text ">
+            <div id="u4434" class="ax_default button">
+              <div id="u4434_div" class=""></div>
+              <div id="u4434_text" class="text ">
                 <p><span>Limpiar</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4433" class="ax_default button">
-              <div id="u4433_div" class=""></div>
-              <div id="u4433_text" class="text ">
+            <div id="u4435" class="ax_default button">
+              <div id="u4435_div" class=""></div>
+              <div id="u4435_text" class="text ">
                 <p><span>Cancelar certificado</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Line) -->
-            <div id="u4434" class="ax_default line">
-              <img id="u4434_img" class="img " src="images/cancelar_certificado/u4434.svg"/>
-              <div id="u4434_text" class="text " style="display:none; visibility: hidden">
+            <div id="u4436" class="ax_default line">
+              <img id="u4436_img" class="img " src="images/cancelar_certificado/u4436.svg"/>
+              <div id="u4436_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- MSJ cancela folio (Dynamic Panel) -->
-            <div id="u4435" class="ax_default ax_default_hidden" data-label="MSJ cancela folio" style="display:none; visibility: hidden">
-              <div id="u4435_state0" class="panel_state" data-label="CamposObligatorio" style="">
-                <div id="u4435_state0_content" class="panel_state_content">
-
-                  <!-- msjObligatorios (Rectangle) -->
-                  <div id="u4436" class="ax_default box_1" data-label="msjObligatorios">
-                    <div id="u4436_div" class=""></div>
-                    <div id="u4436_text" class="text ">
-                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Error!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> No has llenado los campos requeridos. Por favor verifica.</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u4435_state1" class="panel_state" data-label="Folio no encontrado" style="visibility: hidden;">
-                <div id="u4435_state1_content" class="panel_state_content">
-
-                  <!-- msjObligatorios (Rectangle) -->
-                  <div id="u4437" class="ax_default box_1" data-label="msjObligatorios">
-                    <div id="u4437_div" class=""></div>
-                    <div id="u4437_text" class="text ">
-                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Precaución!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> El folio del certificado no existe o no pertenece a este centro </span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="u4435_state2" class="panel_state" data-label="cert ya cancelado" style="visibility: hidden;">
-                <div id="u4435_state2_content" class="panel_state_content">
+            <div id="u4437" class="ax_default ax_default_hidden" data-label="MSJ cancela folio" style="display:none; visibility: hidden">
+              <div id="u4437_state0" class="panel_state" data-label="CamposObligatorio" style="">
+                <div id="u4437_state0_content" class="panel_state_content">
 
                   <!-- msjObligatorios (Rectangle) -->
                   <div id="u4438" class="ax_default box_1" data-label="msjObligatorios">
                     <div id="u4438_div" class=""></div>
                     <div id="u4438_text" class="text ">
-                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Precaución!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> El certificado ya ha sido cancelado</span></p>
+                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Error!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> No has llenado los campos requeridos. Por favor verifica.</span></p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="u4435_state3" class="panel_state" data-label="vigrncia expirada" style="visibility: hidden;">
-                <div id="u4435_state3_content" class="panel_state_content">
+              <div id="u4437_state1" class="panel_state" data-label="Folio no encontrado" style="visibility: hidden;">
+                <div id="u4437_state1_content" class="panel_state_content">
 
                   <!-- msjObligatorios (Rectangle) -->
                   <div id="u4439" class="ax_default box_1" data-label="msjObligatorios">
                     <div id="u4439_div" class=""></div>
                     <div id="u4439_text" class="text ">
+                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Precaución!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> El folio del certificado no existe o no pertenece a este centro </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u4437_state2" class="panel_state" data-label="cert ya cancelado" style="visibility: hidden;">
+                <div id="u4437_state2_content" class="panel_state_content">
+
+                  <!-- msjObligatorios (Rectangle) -->
+                  <div id="u4440" class="ax_default box_1" data-label="msjObligatorios">
+                    <div id="u4440_div" class=""></div>
+                    <div id="u4440_text" class="text ">
+                      <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Precaución!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> El certificado ya ha sido cancelado</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u4437_state3" class="panel_state" data-label="vigrncia expirada" style="visibility: hidden;">
+                <div id="u4437_state3_content" class="panel_state_content">
+
+                  <!-- msjObligatorios (Rectangle) -->
+                  <div id="u4441" class="ax_default box_1" data-label="msjObligatorios">
+                    <div id="u4441_div" class=""></div>
+                    <div id="u4441_text" class="text ">
                       <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Precaución!</span><span style="font-family:'Montserrat Light', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:300;"> La vigencia del certificado ha expirado </span></p>
                     </div>
                   </div>
@@ -1049,33 +1072,15 @@
             </div>
 
             <!-- pdObservaciones cancelar (Dynamic Panel) -->
-            <div id="u4440" class="ax_default" data-label="pdObservaciones cancelar">
-              <div id="u4440_state0" class="panel_state" data-label="inputNormal" style="">
-                <div id="u4440_state0_content" class="panel_state_content">
-
-                  <!-- Unnamed (Rectangle) -->
-                  <div id="u4441" class="ax_default label">
-                    <div id="u4441_div" class=""></div>
-                    <div id="u4441_text" class="text ">
-                      <p><span>Observaciones*:</span></p>
-                    </div>
-                  </div>
-
-                  <!-- txaMotivo eliminacion1 (Text Area) -->
-                  <div id="u4442" class="ax_default text_area" data-label="txaMotivo eliminacion1">
-                    <div id="u4442_div" class=""></div>
-                    <textarea id="u4442_input" class="u4442_input"></textarea>
-                  </div>
-                </div>
-              </div>
-              <div id="u4440_state1" class="panel_state" data-label="Obligatorio" style="visibility: hidden;">
-                <div id="u4440_state1_content" class="panel_state_content">
+            <div id="u4442" class="ax_default" data-label="pdObservaciones cancelar">
+              <div id="u4442_state0" class="panel_state" data-label="inputNormal" style="">
+                <div id="u4442_state0_content" class="panel_state_content">
 
                   <!-- Unnamed (Rectangle) -->
                   <div id="u4443" class="ax_default label">
                     <div id="u4443_div" class=""></div>
                     <div id="u4443_text" class="text ">
-                      <p><span style="color:#545454;">Observaciones</span><span style="color:#D0021B;">*</span><span style="color:#545454;">:</span></p>
+                      <p><span>Observaciones*:</span></p>
                     </div>
                   </div>
 
@@ -1084,11 +1089,29 @@
                     <div id="u4444_div" class=""></div>
                     <textarea id="u4444_input" class="u4444_input"></textarea>
                   </div>
+                </div>
+              </div>
+              <div id="u4442_state1" class="panel_state" data-label="Obligatorio" style="visibility: hidden;">
+                <div id="u4442_state1_content" class="panel_state_content">
 
                   <!-- Unnamed (Rectangle) -->
                   <div id="u4445" class="ax_default label">
                     <div id="u4445_div" class=""></div>
                     <div id="u4445_text" class="text ">
+                      <p><span style="color:#545454;">Observaciones</span><span style="color:#D0021B;">*</span><span style="color:#545454;">:</span></p>
+                    </div>
+                  </div>
+
+                  <!-- txaMotivo eliminacion1 (Text Area) -->
+                  <div id="u4446" class="ax_default text_area" data-label="txaMotivo eliminacion1">
+                    <div id="u4446_div" class=""></div>
+                    <textarea id="u4446_input" class="u4446_input"></textarea>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u4447" class="ax_default label">
+                    <div id="u4447_div" class=""></div>
+                    <div id="u4447_text" class="text ">
                       <p><span>Este campo es obligatorio</span></p>
                     </div>
                   </div>
@@ -1101,33 +1124,33 @@
           <div id="u4416_state1_content" class="panel_state_content">
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4446" class="ax_default button">
-              <div id="u4446_div" class=""></div>
-              <div id="u4446_text" class="text ">
+            <div id="u4448" class="ax_default button">
+              <div id="u4448_div" class=""></div>
+              <div id="u4448_text" class="text ">
                 <p><span>Regresar</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Line) -->
-            <div id="u4447" class="ax_default line">
-              <img id="u4447_img" class="img " src="images/cancelar_certificado/u4434.svg"/>
-              <div id="u4447_text" class="text " style="display:none; visibility: hidden">
+            <div id="u4449" class="ax_default line">
+              <img id="u4449_img" class="img " src="images/cancelar_certificado/u4436.svg"/>
+              <div id="u4449_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4448" class="ax_default box_1">
-              <div id="u4448_div" class=""></div>
-              <div id="u4448_text" class="text ">
+            <div id="u4450" class="ax_default box_1">
+              <div id="u4450_div" class=""></div>
+              <div id="u4450_text" class="text ">
                 <p><span>La operación fue realizada con éxito</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4449" class="ax_default label">
-              <div id="u4449_div" class=""></div>
-              <div id="u4449_text" class="text ">
+            <div id="u4451" class="ax_default label">
+              <div id="u4451_div" class=""></div>
+              <div id="u4451_text" class="text ">
                 <p><span style="font-family:'Montserrat', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Felicidades!</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;">El certificado ha sido cancelado con éxito y los flejes</span></p><p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">B1265, B1269, B1271</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;">ya se encuentran disponibles.</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;"><br></span></p>
               </div>
             </div>
@@ -1137,33 +1160,33 @@
           <div id="u4416_state2_content" class="panel_state_content">
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4450" class="ax_default button">
-              <div id="u4450_div" class=""></div>
-              <div id="u4450_text" class="text ">
+            <div id="u4452" class="ax_default button">
+              <div id="u4452_div" class=""></div>
+              <div id="u4452_text" class="text ">
                 <p><span>Regresar</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Line) -->
-            <div id="u4451" class="ax_default line">
-              <img id="u4451_img" class="img " src="images/cancelar_certificado/u4434.svg"/>
-              <div id="u4451_text" class="text " style="display:none; visibility: hidden">
+            <div id="u4453" class="ax_default line">
+              <img id="u4453_img" class="img " src="images/cancelar_certificado/u4436.svg"/>
+              <div id="u4453_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4452" class="ax_default box_1">
-              <div id="u4452_div" class=""></div>
-              <div id="u4452_text" class="text ">
+            <div id="u4454" class="ax_default box_1">
+              <div id="u4454_div" class=""></div>
+              <div id="u4454_text" class="text ">
                 <p><span>La operación fue realizada con éxito</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4453" class="ax_default label">
-              <div id="u4453_div" class=""></div>
-              <div id="u4453_text" class="text ">
+            <div id="u4455" class="ax_default label">
+              <div id="u4455_div" class=""></div>
+              <div id="u4455_text" class="text ">
                 <p><span style="font-family:'Montserrat', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Felicidades!</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;">El certificado ha sido cancelado con éxito y los flejes</span></p><p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">B1265, B1269, B1271</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;">ya no se encuentran disponibles.</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;"><br></span></p>
               </div>
             </div>
@@ -1173,33 +1196,33 @@
           <div id="u4416_state3_content" class="panel_state_content">
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4454" class="ax_default button">
-              <div id="u4454_div" class=""></div>
-              <div id="u4454_text" class="text ">
+            <div id="u4456" class="ax_default button">
+              <div id="u4456_div" class=""></div>
+              <div id="u4456_text" class="text ">
                 <p><span>Regresar</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Line) -->
-            <div id="u4455" class="ax_default line">
-              <img id="u4455_img" class="img " src="images/cancelar_certificado/u4434.svg"/>
-              <div id="u4455_text" class="text " style="display:none; visibility: hidden">
+            <div id="u4457" class="ax_default line">
+              <img id="u4457_img" class="img " src="images/cancelar_certificado/u4436.svg"/>
+              <div id="u4457_text" class="text " style="display:none; visibility: hidden">
                 <p></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4456" class="ax_default box_1">
-              <div id="u4456_div" class=""></div>
-              <div id="u4456_text" class="text ">
+            <div id="u4458" class="ax_default box_1">
+              <div id="u4458_div" class=""></div>
+              <div id="u4458_text" class="text ">
                 <p><span>La operación fue realizada con éxito</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4457" class="ax_default label">
-              <div id="u4457_div" class=""></div>
-              <div id="u4457_text" class="text ">
+            <div id="u4459" class="ax_default label">
+              <div id="u4459_div" class=""></div>
+              <div id="u4459_text" class="text ">
                 <p><span style="font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;font-weight:700;">¡Felicidades!</span></p><p><span style="font-family:'Montserrat', sans-serif;font-weight:400;">El certificado ha sido cancelado con éxito.</span></p>
               </div>
             </div>
@@ -1208,50 +1231,50 @@
       </div>
 
       <!-- modal salir cancelar (Dynamic Panel) -->
-      <div id="u4458" class="ax_default ax_default_hidden" data-label="modal salir cancelar" style="display:none; visibility: hidden">
-        <div id="u4458_state0" class="panel_state" data-label="State1" style="">
-          <div id="u4458_state0_content" class="panel_state_content">
+      <div id="u4460" class="ax_default ax_default_hidden" data-label="modal salir cancelar" style="display:none; visibility: hidden">
+        <div id="u4460_state0" class="panel_state" data-label="State1" style="">
+          <div id="u4460_state0_content" class="panel_state_content">
 
             <!-- Unnamed (Group) -->
-            <div id="u4459" class="ax_default" data-left="0" data-top="0" data-width="483" data-height="223">
+            <div id="u4461" class="ax_default" data-left="0" data-top="0" data-width="483" data-height="223">
 
               <!-- Unnamed (Rectangle) -->
-              <div id="u4460" class="ax_default box_1">
-                <div id="u4460_div" class=""></div>
-                <div id="u4460_text" class="text " style="display:none; visibility: hidden">
+              <div id="u4462" class="ax_default box_1">
+                <div id="u4462_div" class=""></div>
+                <div id="u4462_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (Rectangle) -->
-              <div id="u4461" class="ax_default heading_2">
-                <img id="u4461_img" class="img " src="images/cancelar_certificado/u4461.svg"/>
-                <div id="u4461_text" class="text ">
+              <div id="u4463" class="ax_default heading_2">
+                <img id="u4463_img" class="img " src="images/cancelar_certificado/u4463.svg"/>
+                <div id="u4463_text" class="text ">
                   <p><span>¿Desea salir de la cancelación de certificados?</span></p>
                 </div>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4462" class="ax_default box_3">
-              <div id="u4462_div" class=""></div>
-              <div id="u4462_text" class="text ">
+            <div id="u4464" class="ax_default box_3">
+              <div id="u4464_div" class=""></div>
+              <div id="u4464_text" class="text ">
                 <p><span>Certificados</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4463" class="ax_default button">
-              <div id="u4463_div" class=""></div>
-              <div id="u4463_text" class="text ">
+            <div id="u4465" class="ax_default button">
+              <div id="u4465_div" class=""></div>
+              <div id="u4465_text" class="text ">
                 <p><span>No</span></p>
               </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u4464" class="ax_default button">
-              <div id="u4464_div" class=""></div>
-              <div id="u4464_text" class="text ">
+            <div id="u4466" class="ax_default button">
+              <div id="u4466_div" class=""></div>
+              <div id="u4466_text" class="text ">
                 <p><span>Sí</span></p>
               </div>
             </div>
