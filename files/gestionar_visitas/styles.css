@@ -25681,6 +25681,8 @@
   font-weight:400;
   font-style:normal;
   font-size:18px;
+  text-align:justify;
+  text-justify:inter-word;
 }
 #u2620 .text {
   position:absolute;
