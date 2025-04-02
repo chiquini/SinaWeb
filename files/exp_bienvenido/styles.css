@@ -1515,7 +1515,7 @@
 #u49 {
   position:absolute;
   left:0px;
-  top:619px;
+  top:649px;
 }
 #u49_state0 {
   position:relative;
@@ -2465,8 +2465,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Montserrat', sans-serif;
-  font-weight:400;
+  font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;
   font-style:normal;
   font-size:16px;
 }
@@ -2478,8 +2477,7 @@
   width:318px;
   height:30px;
   display:flex;
-  font-family:'Montserrat', sans-serif;
-  font-weight:400;
+  font-family:'Montserrat Bold', 'Montserrat Regular', 'Montserrat', sans-serif;
   font-style:normal;
   font-size:16px;
 }
@@ -2619,7 +2617,7 @@
   border-width:0px;
   position:absolute;
   left:89px;
-  top:281px;
+  top:311px;
   width:488px;
   height:67px;
   display:flex;
@@ -2653,7 +2651,7 @@
   border-width:0px;
   position:absolute;
   left:89px;
-  top:363px;
+  top:393px;
   width:1140px;
   height:1px;
   display:flex;
@@ -2684,7 +2682,7 @@
   border-width:0px;
   position:absolute;
   left:89px;
-  top:363px;
+  top:393px;
   width:35px;
   height:5px;
   display:flex;
@@ -2727,7 +2725,7 @@
   border-width:0px;
   position:absolute;
   left:107px;
-  top:427px;
+  top:457px;
   width:727px;
   height:125px;
   display:flex;
